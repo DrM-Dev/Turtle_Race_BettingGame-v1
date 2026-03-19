@@ -165,7 +165,8 @@ else:
     print(''' #__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__#''')
     print(''' #__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__##__#''')
     #
-    my_screen.textinput("you lost :<", prompt=f"the turtle you picked [{user_bet}] lost the race :(")
+    my_screen.textinput(f"You lost, [{winner}] won", prompt=f"the turtle you picked [{user_bet}] lost the race :(")
+
 
 
 #====================================================================================
